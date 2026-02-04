@@ -1,0 +1,505 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*Estilos del header y los botones de navegacion*/
+
+.cabeza {
+
+    background-color: #0F172A;
+    color: white;
+    padding: 10px;;
+}
+
+.divLogo{
+
+    display: flex;
+
+}
+
+.titulo{
+
+margin-left: 50px;
+margin-top: 55px;
+font-family: 'OpenSans';
+
+
+}
+
+.imgLogo{
+
+width: 150px;
+height: 150px;
+
+
+}
+
+.navbar{
+
+
+    margin-top: -40px;
+
+}
+
+
+.navegacion {
+
+display: flex;
+list-style-type: none;
+justify-content: right;
+
+}
+
+.botones{
+
+margin: 10px;
+font-family: 'OpenSans';
+font-size: 18px;
+
+
+}
+
+.informacionLink{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.informacionLink:hover{
+
+    color: #3B82F6;
+
+
+}
+
+/* estilos del video de fondo */
+
+
+.bestCar{
+
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'OpenSans';
+
+
+
+}
+
+.nameCar{
+
+    text-align: center;
+    font-family: 'OpenSans';
+    
+
+
+}
+
+.video-fondo {
+       
+    margin-top: 50px;
+    width: 100%;
+
+    }
+
+    /*body style*/
+
+body{
+
+    background-color: #F8FAFC;
+
+
+}
+
+/*Top 3 cars*/
+
+.sectionCars{
+
+display: flex;
+
+
+}
+
+.top3{
+
+
+text-align: center;
+margin-top: 50px;
+font-family: 'OpenSans';
+margin-bottom: 50px;
+
+}
+
+
+
+.car1{
+
+width: 450px;
+height: 450px;
+background-color: #475569;
+border-radius: 15px;
+margin: 20px;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.accord{
+
+width: 350px;
+height: 350px;
+object-fit: contain;
+margin-left: 45px;
+margin-top: 25px;
+
+}
+
+.accordText{
+
+    text-align: center;
+    font-family: 'OpenSans';
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+
+.car2{
+
+width: 450px;
+height: 450px;
+background-color: #475569;
+border-radius: 15px;
+margin: 20px;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+
+
+
+
+
+}
+
+.k5{
+
+width: 350px;
+height: 350px;
+object-fit: contain;
+margin-left: 45px;
+margin-top: 25px;
+
+}
+
+.k5Text{
+
+    text-align: center;
+    font-family: 'OpenSans';
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+
+
+.car3{
+
+width: 450px;
+height: 450px;
+background-color: #475569;
+border-radius: 15px;
+margin: 20px;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.crv{
+
+width: 350px;
+height: 350px;
+object-fit: contain;
+margin-left: 45px;
+margin-top: 25px;
+
+}
+
+.crvText{
+
+    text-align: center;
+    font-family: 'OpenSans';
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+
+/*estilos del aside*/
+
+/* Estilos para el aside de reservaciones */
+aside {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 550px;
+    margin-top: 80px;
+    border-top: 5px solid #475569;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #0F172A;
+    margin-bottom: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+aside form ul {
+    list-style-type: none;
+}
+
+aside form li {
+    margin-bottom: 20px;
+}
+
+aside form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #475569;
+    font-size: 16px;
+}
+
+aside form input[type="text"],
+aside form input[type="email"],
+aside form input[type="date"],
+aside form select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+aside form input[type="text"]:focus,
+aside form input[type="email"]:focus,
+aside form input[type="date"]:focus,
+aside form select:focus {
+    outline: none;
+    border-color: #475569;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(71, 85, 105, 0.1);
+}
+
+aside form button:hover {
+    background-color: #0F172A;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+aside form button:active {
+    transform: translateY(0);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    aside {
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    aside h2 {
+        font-size: 26px;
+    }
+    
+    aside form input[type="text"],
+    aside form input[type="email"],
+    aside form input[type="date"],
+    aside form select,
+    aside form button {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+}
+
+/* Estilo para los placeholders */
+aside form input::placeholder {
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* Mejoras específicas para el select */
+aside form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23475569' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px;
+    padding-right: 40px;
+}
+
+/*Estilos del boton de enviar*/
+
+/* Versión más simple del botón Reservar */
+input.Reservar[type="button"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+input.Reservar[type="button"]:hover {
+    background-color: #1D4ED8;
+}
+
+/*Footer*/
+
+ footer{
+
+background-color: #0F172A;
+margin-top: 20%;
+
+
+  }
+
+  .footerContainer{
+
+width: 100%;
+padding: 70px 30px 20px;
+
+
+  }
+
+  .socialIcons{
+
+display: flex;
+justify-content: center;
+
+
+  }
+
+  .socialIcons a {
+
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+
+  }
+
+  .socialIcons a i{
+
+font-size: 2em;
+color: #111;
+opacity: 0.9;
+
+
+  }
+
+  .socialIcons a:hover{
+
+background-color: #111;
+transition: 0.5s;
+
+
+  }
+
+   .socialIcons a:hover i{
+
+color: #fff;
+transition: 0.5s;
+
+
+  }
+
+  
+
+  .footerNav{
+
+margin: 30px 0;
+
+
+  }
+
+   .footerNav ul{
+
+display: flex;
+justify-content: center;
+list-style-type: none;
+
+
+  }
+
+   .footerNav ul li a{
+
+color: #fff;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transition: 0.5s;
+
+
+  }
+
+   .footerNav ul li a:hover{
+
+opacity: 1;
+color: #cc0000;
+
+
+  }
+
+
+
+
+  .footerBottom{
+
+    background-color: #0F172A;
+padding: 20px;
+text-align: center;
+
+  }
+
+    .footerBottom .copy {
+  text-align: center;
+  margin: 0 auto;
+  max-width: none;
+}
+
+
+.copy {
+  color: #fff;
+  text-align: center;
+}
+
+  .designer{
+
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+
+
+  }
